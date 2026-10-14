@@ -1,6 +1,10 @@
-c
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
 <html lang="en">
+
+<head>
+    <form></form>
+</head>
 
 <head style="background-color: rgb(183, 43, 226);">
     <meta charset="UTF-8">
@@ -8,13 +12,20 @@ c
     <title>justcarpi</title>
 </head>
 
-<body
-    style="background-image: url('images/download background purple.webp'); background-repeat: no-repeat; background-size: cover;">
-    <h1 style="background-color: rgb(115, 53, 172);">
+
+
+<body id="home" style="background-image: url('images/OIP background (1).jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+    <nav aria-label="Main navigation" style="background-color: rgb(115, 53, 172); padding: 12px;">
+        <a href="#home" style="color: white; margin-right: 16px;">Home</a>
+        <a href="#about" style="color: white; margin-right: 16px;">About</a>
+        <a href="#products" style="color: white; margin-right: 16px;">Products</a>
+        <a href="#price" style="color: white; margin-right: 16px;">Price</a>
+        <a href="#description" style="color: white;">Description</a>
+    </nav>
+    <h1 id="about" style="background-color: rgb(115, 53, 172);">
         <marquee>About justcarpi Boutique</marquee>
     </h1>
-    <p1>justcarpi Boutique sells highly fashionable or designer clothes and shoes at various prices,located in asokwa
-        kumasi </p1>
+    <p1>justcarpi Boutique sells highly fashionable or designer clothes and shoes at various prices,located in asokwa kumasi </p1>
     <h1 style="background-color: rgb(115, 53, 172);">
         <marquee>function Of Justcarpi </marquee>
     </h1>
@@ -25,7 +36,7 @@ c
     </h3>
     <p>Name:Nana Kwame Nsiah <br>telephone:059936474<br>email:nanakwame@gmail.com<br>location:asokwa(kumasi) </p>
 
-    <h2 style="background-color: rgb(115, 53, 172);">
+    <h2 id="products" style="background-color: rgb(115, 53, 172);">
         <marquee>Available products</marquee>
     </h2>
     <p>
@@ -55,16 +66,91 @@ c
 
 
 
-    </p>
 
 
-    <button>click here to make </button><br>
+    </ol>
+
+<button>click here to make </button><br>
+
+<table border="1" style="width: 100%; max-width: 600px; border-collapse: collapse; margin-top: 20px; background-color: rgb(115, 53, 172);">
+    <thead>
+        <tr>
+            <th>Product
+            </th>
+            <th id="price">Price</th>
+            <th id="description">Description</th>
+        </tr> 
+        <tr>
+            <td>Suites</td>
+            <td>GH₵100</td>
+            <td>High-quality designer suites for formal occasions.</td>
+        </tr>
+        <tr>
+            <td>Polo Shirt</td>
+            <td>GH₵40</td>
+            <td>Stylish polo shirts for casual wear.</td>
+        </tr>
+        <tr>
+            <td>Jeans</td>
+            <td>GH₵60</td>
+            <td>Comfortable and trendy jeans for everyday use.</td>
+        </tr>
+        <tr>
+            <td>Shoes</td>
+            <td>GH₵80</td>
+            <td>Fashionable shoes for various occasions.</td>
+        </tr>
+        <tr>        
+            <td>Perfumes</td>
+            <td>GH₵50</td>
+            <td>Exquisite perfumes with captivating scents.</td> 
+         </tr>
+        <tr>
+            <td>Belts</td>
+            <td>GH₵30</td>
+            <td>Durable and stylish belts for all outfits.</td>
+        </tr>
+        <tr>
+            <td>Watches</td>
+            <td>GH₵120</td>
+            <td>Elegant watches to complement your style.</td>  
+        </tr>   
+               
+        
+
+
+
+    
 
     <img src="images\OIP.webp" width="300" height="290" alt=""><br>
     <img src="images\ph-11134201-7r98u-lpkn9rv8fpk4f4.jpg" alt="" style="width: 100%; max-width:300px;"><br>
     <img src="images/download.webp" alt="" srcset=""><br>
     <img src="images\OIP 2.webp" alt="" srcset=""><br>
     <img src="images\download 2.webp" alt="" srcset="">
+
+    <form action="#" method="post" style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 20px;">
+        <div style="display: flex; align-items: center; gap: 6px;">
+            <label for="username">Username:</label>
+            <input id="username" name="username" type="text" required>
+        </div>
+        <div style="display: flex; align-items: center; gap: 6px;">
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" required>
+        </div>
+        <div style="display: flex; align-items: center; gap: 6px;">
+            <label for="password">Password:</label>
+            <input id="password" name="password" type="password" required>
+        </div>
+        <button type="submit">Send</button>
+    </form>
+
+
+
+
+
+
+
+
 
 
     <iframe src="" frameborder="0"></iframe>
